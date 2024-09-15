@@ -16,22 +16,25 @@ export default function Home() {
 
             </header>
 
-            <div className="h-full w-full bg-base-100 flex justify-center gap-[10vh] flex-col">
+            <div className="h-full w-full bg-base-100 flex justify-center gap-[10vh] flex-col px-5">
 
                 <Link href="#">
-                    <div className="flex justify-between items-center bg-neutral py-10 mx-4 rounded-3xl">
+                    <div className="btn btn-neutral h-auto w-full py-10 rounded-3xl text-white">
+    
+                        <div className="flex flex-row justify-between items-center">
+                            <FontAwesomeIcon icon={faCamera} className="w-24 ml-5" />
 
-                        <FontAwesomeIcon icon={faCamera} className="w-24 ml-5" />
-
-                        <div className="w-full text-center">
-                            <h1 className="text-4xl font-black">Scan With QR</h1>
+                            <div className="w-full text-center">
+                                <h1 className="text-4xl font-black">Scan With QR</h1>
+                            </div>
                         </div>
+
 
                     </div>
                 </Link>
 
                 <Link href="#">
-                    <div className="btn btn-neutral h-auto py-10 mx-4 rounded-3xl text-white">
+                    <div className="btn btn-neutral h-auto w-full py-10 rounded-3xl text-white">
 
                         <div className="flex flex-row justify-between items-center">
                             <FontAwesomeIcon icon={faMapLocation} className="w-24 ml-5" />
