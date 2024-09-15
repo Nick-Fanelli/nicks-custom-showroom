@@ -1,11 +1,10 @@
 import { faCamera, faMapLocation } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
     return (
-        <div id="app" className="w-screen h-screen !overflow-hidden grid grid-rows-[10rem_1fr]">
+        <div id="app" className="w-screen max-w-screen !h-[100dvh] !overflow-y-hidden !overflow-hidden grid grid-rows-[10rem_1fr]">
 
             <header className="bg-neutral h-full w-screen text-center grid grid-row-1 items-center">
 
